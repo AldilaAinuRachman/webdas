@@ -1,0 +1,43 @@
+.wrap{
+	width: 900px;
+	margin: 10px auto;
+}
+.wrap .hr{
+    margin: 1px;
+}
+.clear{
+    clear: both;
+}
+.badan{
+	height: 450px;
+}
+.wrap .badan .sidebar{
+	float: left;	
+	width: 25%;
+    height: 100%;
+    margin-top: 1%;
+}
+.wrap .badan .content{
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+	align-content: center;
+}
+.wrap .footer .panel-body{
+	width: 600px;
+	height: 1000px;
+	border: 60px;
+	margin: 0 auto;
+}
+.center tr th{
+    background: #708090	;
+    color: #fff;
+    font-weight: normal;
+}
+.center tr:nth-child(even) {
+background:#C0C0C0;
+}
